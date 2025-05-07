@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+
+int main(){
+char response;
+int a;
+a = repsone;
+
+printf("\n Welcome to the forest\n");
+printf("\nType out the action you wish to do\n");
+printf("type start to start the game");
+
+scanf("%c\n", &response);
+
+if ((response = start)||(reponse = Start));
+Printf("\n you pull over to the side of the road and see a large froest/n);
+printf("\n what do you do?/n);
+printf("\n back,go\n");
+
+
+
+return (0);
+}
