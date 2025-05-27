@@ -4,7 +4,7 @@
 
 int main(){
 int response;
-int shovel;
+int shovel = 0;
 int notes;
 
 printf("\n Welcome to the forest\n");
@@ -30,9 +30,18 @@ response = 0;
 scanf("%d", &response); }// Move further
 //section two the beginning
 if (response == 1 ){
-printf("\n you return to the car\n");
+printf("\n You head north and notice a pile of fresh dirt\n");
 response = 0;
-scanf("%d", &response); }// north arrive
+if (shovel = 1){
+    printf("\n 1.dig  ");
+}
+printf("2.Leave \n");
+scanf("%d", &response); }// north arrive with shovel
+if((response = 1) && (shovel = 1)){ 
+    printf("You dig up a box.It feels quite heavy");
+    printf("\n 1.open  2.leave\n");
+response = 0;
+scanf("%d", &response); }
 if (response == 2 ){
 printf("\n you move further into the forest and start to feel uneasy.There is nothing of note here just some trees\n");
 printf("\n 1.north 2.east 3.west\n");
@@ -51,6 +60,7 @@ scanf("%d", &response); }//west leave
 if (response == 1 ){
 printf("\n you take the shovel and nothing happens.\n");
 printf("\n +1 shovel\n");
+shovel = 1;
 response = 0;
 scanf("%d", &response); }//west shovel
 }
