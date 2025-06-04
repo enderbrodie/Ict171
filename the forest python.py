@@ -1,3 +1,5 @@
+
+
 L = 0
 print("Welcome to the forest")
 print("Use the number to help you navigate this game")
@@ -20,8 +22,19 @@ if rep == '1':
             if rep == '2':
                 print("You notice a loaded gun sitting near the kitchen table")
                 rep == 0
+                print("1.Rush for the gun 2.Leave")
                 rep = input()
-                print("1.Forward 2.walk round")
+            if rep == '1':
+                print("As you leave you step on a banch as that catches the old mans attetion.")
+                rep == 0
+                if rep == '1':
+                    print("you reach the gun and hold it prepeared as the old man rushes at you")
+                    print("1.shoot 2.shoot")
+                    rep == 0
+                    rep = input()
+                    if rep == '1':
+                        print("you shoot the man in cold blood as you do so you turn to see his wife shoot you. THE END")
+                        
             
 if rep == '2':
     print("You turn around and someone smashed a bottle over you head your DEAD")
