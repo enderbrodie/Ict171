@@ -1,7 +1,9 @@
 link to the server 
+http://54.254.185.42/
 
 Your student number and name are in the document 
-
+yes
 A link to the video explainer 
-
+https://drive.google.com/file/d/1CSbhAU7cB6QQbmB_Q5PPz6YPxjFfh0_5/view?usp=drive_link
 Documentation of the project
+https://docs.google.com/document/d/1g0sIX6bBmI-SHl8g3SULJFFG00AG-f2m/edit?usp=drive_link&ouid=109386018857056660771&rtpof=true&sd=true
